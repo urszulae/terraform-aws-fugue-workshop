@@ -7,7 +7,7 @@
     - Use your Snyk email
 3. Install and configure AWS CLI:
     - Install AWS CLI - [Mac download link](https://awscli.amazonaws.com/AWSCLIV2.pkg)
-    - Run ```aws configure``` and follow the steps to add your ```AWS Access Key ID``` and ```AWS Secret Key``` and set the Default region name to ```us-west-2```
+    - Run ```aws configure``` and follow the steps to add your ```AWS Access Key ID``` and ```AWS Secret Key```  set the Default region name to ```us-west-2``` when ```Default output format``` appears, press ```Enter``` (to default to json)
     - If you can't find your AWS keys you can create new keys [as described by Amazon](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html)
     - Test with ```aws s3 ls```
 4. Install and configure Terraform:
